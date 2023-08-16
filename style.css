@@ -1,0 +1,91 @@
+/* nav bar styling */
+
+.navBar a{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* SearchBox Styling */
+.searchBox #searchBtn{
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color:rgba(0, 0, 0, 0.448);
+}
+
+.searchBox #search{
+    height: 1.5rem;
+    width: 15rem;
+    margin: 1rem;
+}
+.searchBox label{
+   font-size: larger;
+   margin-left: 3rem;
+   font-weight: bold;
+}
+/* Display Data Container Styling */
+
+#displayItem{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+}
+.listData{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 15rem;
+    height: 20rem;
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+.listData h3{
+    margin: 0px;
+    margin:1rem 1rem 1rem 2rem; 
+}
+
+.listData div{
+    display: flex;
+}
+.listData .superImage{
+   position: absolute;
+    margin: 0;
+    width: 10rem;
+    height: 15rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+}
+.listData .favImg{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    left: 2rem;
+    margin: 0;
+}
+
+
+
+/* favorite data Styling*/
+#favoriteDataList{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+/* SuperHero Page Styling */
+#superHeroContainer p{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(1, 0, 0);
+}
+
+#superHeroContainer ul{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(107, 27, 27);
+}
